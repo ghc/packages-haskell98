@@ -2,6 +2,7 @@
 
 Package {
 	name		= "haskell98",
+	auto		= True,
 #ifdef INSTALLING
 	import_dirs	= [ "$libdir/imports/haskell98" ],
 #else
