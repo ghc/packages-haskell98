@@ -1,6 +1,7 @@
 name:		haskell98
 version:	1.0
 license:	BSD3
+license-file:	LICENSE
 maintainer:	libraries@haskell.org
 synopsis:	Compatibility with Haskell 98
 description:
