@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
-# $Id: Makefile,v 1.1 2001/08/02 14:03:38 simonmar Exp $
+# $Id: Makefile,v 1.2 2002/02/07 11:13:30 simonmar Exp $
 
-TOP=..
+TOP=../..
 include $(TOP)/mk/boilerplate.mk
 
 ALL_DIRS =
