@@ -1,25 +1,24 @@
 #include "config.h"
 
 Package {
-        name           = "haskell98",
+	name		= "haskell98",
 #ifdef INSTALLING
-	import_dirs    = [ "$libdir/imports" ]
+	import_dirs	= [ "$libdir/imports" ],
 #else
-	import_dirs    = [ "$libdir/libraries/haskell98" ],
+	import_dirs	= [ "$libdir/libraries/haskell98" ],
 #endif
-        source_dirs    = [],
+	source_dirs	= [],
 #ifdef INSTALLING
-        library_dirs   = [ "$libdir" ]
+	library_dirs	= [ "$libdir" ],
 #else
-        library_dirs   = [ "$libdir/libraries/haskell98"
-                         , "$libdir/libraries/haskell98/cbits" ],
+	library_dirs	= [ "$libdir/libraries/haskell98" ],
 #endif
-        hs_libraries      = [ "HShaskell98" ],
-	extra_libraries   = [],
-        include_dirs   = [],
-        c_includes     = [],
-        package_deps   = [ "base" ],
-        extra_ghc_opts = [],
-        extra_cc_opts  = [],
-        extra_ld_opts  = []
+	hs_libraries	= [ "HShaskell98" ],
+	extra_libraries	= [],
+        include_dirs	= [],
+        c_includes	= [],
+        package_deps	= [ "base" ],
+        extra_ghc_opts	= [],
+        extra_cc_opts	= [],
+        extra_ld_opts	= []
 }
