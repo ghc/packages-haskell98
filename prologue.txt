@@ -1,3 +1,6 @@
-This package contains the Haskell 98 Standard and FFI Standard Libraries. For
-more information on the Haskell 98 Standard Libraries, please see the Haskell 98
-Library Report, here: <http://www.haskell.org/onlinelibrary/>.
+This package contains the Haskell 98 Standard and FFI Standard Libraries,
+except for @Prelude@, @Numeric@ and @Foreign@.
+The modules of this package are documented in the /Revised Haskell 98 Report/,
+at <http://www.haskell.org/onlinereport/>,
+and the /Haskell 98 Foreign Function Interface/ addendum,
+at <http://www.cse.unsw.edu.au/~chak/haskell/ffi/>.
