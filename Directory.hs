@@ -1,5 +1,5 @@
 module Directory (
-    module System.IO.Directory
+    module System.Directory
   ) where
 
-import System.IO.Directory
+import System.Directory
