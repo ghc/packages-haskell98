@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
-# $Id: Makefile,v 1.2 2002/02/07 11:13:30 simonmar Exp $
+# $Id: Makefile,v 1.3 2002/02/12 10:52:47 simonmar Exp $
 
-TOP=../..
+TOP=..
 include $(TOP)/mk/boilerplate.mk
 
 ALL_DIRS =
-PKG      = haskell98
+PACKAGE      = haskell98
 
 include $(TOP)/mk/target.mk
