@@ -7,7 +7,7 @@ module MarshalError (
 	alreadyInUseErrorType,
 	fullErrorType,
 	eofErrorType,
-	illegalOperationType,
+	illegalOperationErrorType,
 	permissionErrorType,
 	userErrorType,
 	annotateIOError
