@@ -1,3 +1,2 @@
-module CTypes (module Foreign.C.Types, module Foreign.C.TypesISO) where
+module CTypes (module Foreign.C.Types) where
 import Foreign.C.Types
-import Foreign.C.TypesISO
