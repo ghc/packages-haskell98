@@ -1,0 +1,7 @@
+This package contains the Haskell 98 Standard Libraries, which are
+always available to every Haskell program.  The implementations of
+these libraries however reside elsewhere in the hierarchy (the modules
+here mostly just re-export the contents of other libraries).
+
+For more information on the standard libraries, please see the Haskell
+98 Library Report, here: <http://www.haskell.org/onlinelibrary/>.
