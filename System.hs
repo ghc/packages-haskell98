@@ -1,7 +1,6 @@
 module System (
-    module System.Exit,
-    module System.Environment,
-    module System.Cmd
+    ExitCode(ExitSuccess,ExitFailure),
+    getArgs, getProgName, getEnv, system, exitWith, exitFailure
   ) where
 
 import System.Exit

@@ -1,5 +1,5 @@
 module CPUTime (
-    module System.CPUTime
+    getCPUTime, cpuTimePrecision 
   ) where
 
 import System.CPUTime

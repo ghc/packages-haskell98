@@ -1,5 +1,5 @@
 module Locale (
-    module System.Locale
+    TimeLocale(..), defaultTimeLocale
   ) where
 
 import System.Locale ( 
