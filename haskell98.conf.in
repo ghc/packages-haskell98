@@ -15,13 +15,9 @@ Package {
                          , "$libdir/libraries/haskell98/cbits" ],
 #endif
         hs_libraries      = [ "HShaskell98" ],
-	extra_libraries   = [ ],
-#ifdef INSTALLING
-        include_dirs   = []
-#else
-        include_dirs   = [ "$libdir/libraries/haskell98/include" ],
-#endif
-        c_includes     = [ "HsHaskell98.h" ],
+	extra_libraries   = [],
+        include_dirs   = [],
+        c_includes     = [],
         package_deps   = [ "core" ],
         extra_ghc_opts = [],
         extra_cc_opts  = [],
