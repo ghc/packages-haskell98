@@ -9,6 +9,8 @@ PACKAGE      = haskell98
 VERSION = 1.0
 PACKAGE_DEPS = base
 
+EXCLUDED_SRCS += Setup.hs
+
 SRC_HADDOCK_OPTS += -t "Haskell Hierarchical Libraries ($(PACKAGE) package)"
 
 include $(TOP)/mk/target.mk
