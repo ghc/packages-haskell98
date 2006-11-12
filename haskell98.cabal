@@ -20,3 +20,6 @@ exposed-modules:
 	Bits, CError, CForeign, CString, CTypes, ForeignPtr, Int,
 	MarshalAlloc, MarshalArray, MarshalError, MarshalUtils, Ptr,
 	StablePtr, Storable, Word
+-- We need to set the package name to haskell98 (without a version number)
+-- as it's magic.
+ghc-options: -package-name haskell98
