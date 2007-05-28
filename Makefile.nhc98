@@ -4,7 +4,7 @@ EXTRA_H_FLAGS   =
 EXTRA_HBC_FLAGS =
 
 DIRS	=
-SRCS	=
+SRCS	= dummy-nhc.c
 
 # Here are the main rules.
 include ../Makefile.common
