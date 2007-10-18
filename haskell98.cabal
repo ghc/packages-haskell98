@@ -11,6 +11,7 @@ description:
 	However Prelude, Numeric and Foreign are provided directly by
 	the base package.
 homepage:	http://www.haskell.org/definition/
+build-type:     Simple
 build-depends:	base, directory, random, old-time, old-locale, process, array
 exposed-modules:
 	-- Haskell 98 (Prelude and Numeric are in the base package)
