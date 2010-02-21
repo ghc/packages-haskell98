@@ -5,6 +5,7 @@ license-file:	LICENSE
 maintainer:	libraries@haskell.org
 bug-reports: http://hackage.haskell.org/trac/ghc/newticket?component=libraries/haskell98
 synopsis:	Compatibility with Haskell 98
+category:   Haskell98
 description:
 	This package provides compatibility with the modules of Haskell
 	98 and the FFI addendum, by means of wrappers around modules from
