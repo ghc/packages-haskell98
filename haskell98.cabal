@@ -18,7 +18,8 @@ Cabal-Version: >= 1.6
 
 Library
     build-depends:	base >= 3 && < 5,
-                    directory, random, old-time, old-locale, process, array
+                    directory, random, old-time, old-locale, process,
+                    array, time
     exposed-modules:
         -- Haskell 98 (Prelude and Numeric are in the base package)
         Array, CPUTime, Char, Complex, Directory, IO, Ix, List, Locale,
