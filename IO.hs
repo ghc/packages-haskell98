@@ -1,3 +1,6 @@
+
+{-# OPTIONS_GHC -fno-warn-deprecations #-}
+
 module IO (
     Handle, HandlePosn,
     IOMode(ReadMode,WriteMode,AppendMode,ReadWriteMode),
