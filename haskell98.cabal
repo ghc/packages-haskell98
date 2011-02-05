@@ -26,13 +26,15 @@ Library
                     array       >= 0.3 && < 0.4,
                     time        >= 1.2 && < 1.3
     exposed-modules:
-        -- Haskell 98 (Prelude and Numeric are in the base package)
-        Array, CPUTime, Char, Complex, Directory, IO, Ix, List, Locale,
-        Maybe, Monad, Random, Ratio, System, Time,
+        -- Haskell 98
+        Prelude, Array, CPUTime, Char, Complex, Directory, IO,
+        Ix, List, Locale,
+        Maybe, Monad, Numeric, Random, Ratio, System, Time,
         -- FFI addendum (Foreign is in the base package)
         Bits, CError, CForeign, CString, CTypes, ForeignPtr, Int,
         MarshalAlloc, MarshalArray, MarshalError, MarshalUtils, Ptr,
         StablePtr, Storable, Word
+    exposed: False
 
 source-repository head
     type:     darcs

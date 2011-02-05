@@ -26,7 +26,7 @@ module IO (
   ) where
 
 import System.IO
-import System.IO.Error
+import System.IO.Error hiding (catch, try)
 
 -- | The 'bracket' function captures a common allocate, compute, deallocate
 -- idiom in which the deallocation step must occur even in the case of an
@@ -59,3 +59,14 @@ bracket_ before after m = do
          case rs of
             Right r -> return r
             Left  e -> ioError e
+
+-- | The construct 'try' @comp@ exposes IO errors which occur within a
+-- computation, and which are not fully handled.
+--
+-- Non-I\/O exceptions are not caught by this variant; to catch all
+-- exceptions, use 'Control.Exception.try' from "Control.Exception".
+try     :: IO a -> IO (Either IOError a)
+try f   =  catch (do r <- f
+                     return (Right r))
+                 (return . Left)
+
