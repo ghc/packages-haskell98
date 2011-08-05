@@ -1,4 +1,7 @@
-{-# LANGUAGE CPP, NoImplicitPrelude, BangPatterns, PackageImports #-}
+#if __GLASGOW_HASKELL__ >= 701
+{-# LANGUAGE Trustworthy #-}
+#endif
+{-# LANGUAGE NoImplicitPrelude, BangPatterns, PackageImports #-}
 
 -- |
 -- The Haskell 98 Prelude: a standard module imported by default

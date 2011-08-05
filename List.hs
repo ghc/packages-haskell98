@@ -1,3 +1,7 @@
+#if __GLASGOW_HASKELL__ >= 701
+{-# LANGUAGE Safe #-}
+#endif
+
 module List (
     elemIndex, elemIndices,
     find, findIndex, findIndices,

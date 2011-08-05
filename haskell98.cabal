@@ -34,6 +34,7 @@ Library
         MarshalAlloc, MarshalArray, MarshalError, MarshalUtils, Ptr,
         StablePtr, Storable, Word
     exposed: False
+    extensions: CPP
 
 source-repository head
     type:     git

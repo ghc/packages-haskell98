@@ -1,3 +1,6 @@
+#if __GLASGOW_HASKELL__ >= 701
+{-# LANGUAGE Safe #-}
+#endif
 
 {-# OPTIONS_GHC -fno-warn-deprecations #-}
 
