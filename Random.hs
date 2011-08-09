@@ -2,8 +2,7 @@
 {-# LANGUAGE Trustworthy #-}
 #endif
 
-module Random
-        (
+module Random (
 
         -- $intro
 
@@ -32,7 +31,7 @@ module Random
         -- * References
         -- $references
 
-        ) where
+    ) where
 
 import Prelude
 

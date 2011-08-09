@@ -3,7 +3,6 @@
 #endif
 
 module CPUTime (
-    getCPUTime, cpuTimePrecision 
-  ) where
-
+        getCPUTime, cpuTimePrecision 
+    ) where
 import System.CPUTime

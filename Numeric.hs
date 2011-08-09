@@ -1,7 +1,7 @@
+{-# LANGUAGE PackageImports #-}
 #if __GLASGOW_HASKELL__ >= 701
 {-# LANGUAGE Safe #-}
 #endif
-{-# LANGUAGE PackageImports #-}
 
 module Numeric (
 
@@ -30,7 +30,7 @@ module Numeric (
         readSigned,       -- :: (Real a) => ReadS a -> ReadS a
 
         readInt,          -- :: (Integral a) => a -> (Char -> Bool)
-                          --         -> (Char -> Int) -> ReadS a
+                      --         -> (Char -> Int) -> ReadS a
         readDec,          -- :: (Integral a) => ReadS a
         readOct,          -- :: (Integral a) => ReadS a
         readHex,          -- :: (Integral a) => ReadS a
@@ -43,6 +43,6 @@ module Numeric (
 
         fromRat,          -- :: (RealFloat a) => Rational -> a
 
-        ) where
+    ) where
 
 import "base" Numeric

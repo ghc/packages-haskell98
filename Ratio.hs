@@ -3,7 +3,7 @@
 #endif
 
 module Ratio (
-    Ratio, Rational, (%), numerator, denominator, approxRational
-  ) where
+        Ratio, Rational, (%), numerator, denominator, approxRational
+    ) where
 
 import Data.Ratio

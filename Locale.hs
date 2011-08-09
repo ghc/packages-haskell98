@@ -3,8 +3,8 @@
 #endif
 
 module Locale (
-    TimeLocale(..), defaultTimeLocale
-  ) where
+        TimeLocale(..), defaultTimeLocale
+    ) where
 
 import System.Locale ( 
 	-- just the bits that are specified by Haskell 98

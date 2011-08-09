@@ -3,13 +3,13 @@
 #endif
 
 module Maybe (
-    isJust, isNothing,
-    fromJust, fromMaybe, listToMaybe, maybeToList,
-    catMaybes, mapMaybe,
+        isJust, isNothing,
+        fromJust, fromMaybe, listToMaybe, maybeToList,
+        catMaybes, mapMaybe,
 
-    -- ...and what the Prelude exports
-    Maybe(Nothing, Just),
-    maybe
-  ) where
+        -- ...and what the Prelude exports
+        Maybe(Nothing, Just),
+        maybe
+    ) where
 
 import Data.Maybe

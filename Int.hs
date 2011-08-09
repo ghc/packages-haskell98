@@ -2,5 +2,5 @@
 {-# LANGUAGE Safe #-}
 #endif
 
-module Int ( module Data.Int ) where
+module Int (module Data.Int) where
 import Data.Int

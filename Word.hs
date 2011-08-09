@@ -2,5 +2,5 @@
 {-# LANGUAGE Safe #-}
 #endif
 
-module Word ( module Data.Word ) where
+module Word (module Data.Word) where
 import Data.Word
