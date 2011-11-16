@@ -82,7 +82,7 @@ class RandomGen g where
    -- generators. This is very useful in functional programs (for example, when
    -- passing a random number generator down to recursive calls), but very
    -- little work has been done on statistically robust implementations of
-   -- 'split' (["System.Random\#Burton", "System.Random\#Hellekalek"]
+   -- 'split' (["Random\#Burton", "Random\#Hellekalek"]
    -- are the only examples we know of).
    split    :: g -> (g, g)
 
@@ -113,7 +113,7 @@ The 'StdGen' instance of 'RandomGen' has a 'genRange' of at least 30 bits.
 
 The result of repeatedly using 'next' should be at least as statistically
 robust as the /Minimal Standard Random Number Generator/ described by
-["System.Random\#Park", "System.Random\#Carta"].
+["Random\#Park", "Random\#Carta"].
 Until more is known about implementations of 'split', all we require is
 that 'split' deliver generators that are (a) not identical and
 (b) independently robust in the sense just given.
@@ -229,12 +229,12 @@ class Random a where
   randoms  g      = (\(x,g') -> x : randoms g') (random g)
 
   -- | A variant of 'randomR' that uses the global random number generator
-  -- (see "System.Random#globalrng").
+  -- (see "Random#globalrng").
   randomRIO :: (a,a) -> IO a
   randomRIO range  = getStdRandom (randomR range)
 
   -- | A variant of 'random' that uses the global random number generator
-  -- (see "System.Random#globalrng").
+  -- (see "Random#globalrng").
   randomIO  :: IO a
   randomIO         = getStdRandom random
 
