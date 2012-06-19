@@ -28,7 +28,7 @@ module IO (
     ) where
 
 import System.IO
-import System.IO.Error hiding (catch, try)
+import System.IO.Error
 
 -- | The 'bracket' function captures a common allocate, compute, deallocate
 -- idiom in which the deallocation step must occur even in the case of an
