@@ -39,5 +39,5 @@ Library
 
 source-repository head
     type:     git
-    location: http://darcs.haskell.org/packages/haskell98.git/
+    location: http://git.haskell.org/packages/haskell98.git
 
