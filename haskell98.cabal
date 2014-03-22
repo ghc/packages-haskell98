@@ -14,8 +14,11 @@ description:
     This package provides compatibility with the modules of Haskell
     98 and the FFI addendum, by means of wrappers around modules from
     the base package (which in many cases have additional features).
-    However Prelude, Numeric and Foreign are provided directly by
-    the base package.
+    However "Prelude", "Numeric" and "Foreign" are provided directly by
+    the @base@ package.
+
+extra-source-files:
+    changelog.md
 
 source-repository head
     type:     git
