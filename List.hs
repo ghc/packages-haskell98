@@ -31,4 +31,4 @@ module List (
         zip, zip3, zipWith, zipWith3, unzip, unzip3
     ) where
 
-import Data.List hiding (foldl', splitAt)
+import Data.OldList hiding (foldl', splitAt)
